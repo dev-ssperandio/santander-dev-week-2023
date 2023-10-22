@@ -1,6 +1,8 @@
 # Santander Dev Week 2023
 
 ## Diagrama de Classe
+
+```
 classDiagram
   class User {
     -String name
@@ -36,3 +38,4 @@ classDiagram
   User "1" *-- "N" Feature
   User "1" *-- "1" Card
   User "1" *-- "N" News
+  ```
